@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hypotenuse</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hypotenuse.css" />
   </head>
   <body>
     <nav>
-      <a href="istriangle.html">Is it a Triangle?</a>
-      <a href="trianglequiz.html">Triangle Quiz</a>
-      <a href="hypotenuse.html">Calculate Hypotenuse</a>
+      <div class="nav-heading">Fun with Triangles △</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="istriangle.html">△ Is it a Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="trianglequiz.html">△ Triangle Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="hypotenuse.html"
+            >△ Calculate Hypotenuse</a
+          >
+        </li>
+      </ul>
     </nav>
-    <h1>Calculate Hypotenuse</h1>
-    <label>a = </label>
+    <h1>Calculate Hypotenuse of a △</h1>
+    <label>Enter base value (a) = </label>
     <input type="number" class="side-input" />
-    <label>b = </label>
+    <label>Enter height value (b) = </label>
     <input type="number" class="side-input" />
     <button id="calculate-btn">Calculate</button>
     <h2>Hypotenuse formula = √(base² + height²)</h2>

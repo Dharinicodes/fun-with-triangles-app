@@ -17,15 +17,10 @@ const correctAnswers = [
 
 function calculateScore() {
   const formResults = new FormData(quizForm);
-  console.log("fr ", formResults);
   let score = 0;
   index = 0;
   for (let value of formResults.values()) {
-    console.log("index ", index);
-    console.log("ca ", correctAnswers[index]);
-    console.log("bv ", value);
     if (value === correctAnswers[index]) {
-      console.log("crrect ", value);
       score = score + 1;
     }
     index = index + 1;

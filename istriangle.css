@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+:root {
+  --primary-color: #ed6663;
+  --secondary-color: #fee9d7;
+  --tertiary-color: #ffd6b6;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  margin: 0px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  color: white;
+  text-align: left;
+  font-size: larger;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.nav-heading {
+  font-weight: bold;
+  font-size: x-large;
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.list-non-bullet {
+  list-style: none;
+  text-align: right;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+h1 {
+  padding: 0.2rem;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  border-style: double;
+  border-color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  padding: 0.5rem;
+  outline: none;
+  width: 100%;
+  max-width: 222px;
+}
+
+button {
+  font-family: inherit;
+  margin-top: 0.3rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border-style: double;
+  border-color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}
+
+div {
+  padding: 1rem;
+  font-size: x-large;
+}
